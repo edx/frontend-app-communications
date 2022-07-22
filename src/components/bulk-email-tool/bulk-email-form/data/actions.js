@@ -9,6 +9,10 @@ export const clearEditor = () => ({
   type: 'CLEAR_EDITOR',
 });
 
+export const clearErrorState = () => ({
+  type: 'CLEAR_ERROR',
+});
+
 export const copyToEditor = (payload) => ({
   type: 'COPY_TO_EDITOR',
   payload,
