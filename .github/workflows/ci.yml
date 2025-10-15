@@ -2,7 +2,7 @@ name: Default CI
 on:
   push:
     branches:
-    - 'master'
+    - 'release-ulmo'
   pull_request:
     branches:
     - '**'
